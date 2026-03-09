@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Modern Lifestyle Store</title>
+
 <link rel="stylesheet" href="styles.css">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
 
+
 <!-- NAVBAR -->
 
 <header class="navbar">
-<div class="logo">MODERN LIFESTYLE</div>
+
+<div class="logo">
+<i class="fa-solid fa-leaf"></i>
+Modern Lifestyle
+</div>
 
 <nav>
 <a href="#">Home</a>
@@ -21,6 +36,7 @@
 <a href="#faq">FAQ</a>
 <a href="#contact">Contact</a>
 </nav>
+
 </header>
 
 
@@ -30,18 +46,22 @@
 
 <div class="hero-content">
 
-<h1>Modern Lifestyle Store</h1>
+<h1>Elevate Your <span>Modern Lifestyle</span></h1>
 
 <p>
-Elevate your everyday with ethically sourced,
-eco-friendly lifestyle products designed for modern living.
+Sustainable products designed for comfort, style,
+and everyday living.
 </p>
 
-<a href="#" class="btn">Explore Collection</a>
+<div class="hero-buttons">
+<a class="btn-primary" href="#">Shop Now</a>
+<a class="btn-secondary" href="#">Learn More</a>
+</div>
 
 </div>
 
 </section>
+
 
 
 <!-- FEATURES -->
@@ -53,32 +73,54 @@ eco-friendly lifestyle products designed for modern living.
 <div class="features-grid">
 
 <div class="card">
+<i class="fa-solid fa-seedling feature-icon"></i>
 <h3>Locally Made</h3>
 <p>
-Our products are crafted locally using ethically sourced materials
-to support communities and sustainable practices.
+Crafted locally with ethically sourced materials.
 </p>
 </div>
 
 <div class="card">
+<i class="fa-solid fa-recycle feature-icon"></i>
 <h3>Eco Friendly</h3>
 <p>
-Sustainability is at the core of everything we do,
-from packaging to production.
+Sustainable production and environmentally
+conscious packaging.
 </p>
 </div>
 
 <div class="card">
+<i class="fa-solid fa-star feature-icon"></i>
 <h3>Premium Quality</h3>
 <p>
-Every product is carefully designed for durability,
-style, and everyday use.
+Designed for durability, beauty,
+and everyday use.
 </p>
 </div>
 
 </div>
 
 </section>
+
+
+
+<!-- IMAGE SECTION -->
+
+<section class="gallery">
+
+<h2>Our Lifestyle</h2>
+
+<div class="gallery-grid">
+
+<img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a">
+<img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36">
+<img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a">
+<img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9">
+
+</div>
+
+</section>
+
 
 
 <!-- EVENTS -->
@@ -91,7 +133,7 @@ style, and everyday use.
 
 <div class="event-card">
 <h3>Community Market</h3>
-<p class="date">August 30, 2030</p>
+<p class="date">Aug 30, 2030</p>
 <p>Harmonious Park</p>
 </div>
 
@@ -112,6 +154,7 @@ style, and everyday use.
 </section>
 
 
+
 <!-- FAQ -->
 
 <section id="faq" class="faq">
@@ -122,26 +165,17 @@ style, and everyday use.
 
 <div class="faq-item">
 <h3>What is your return policy?</h3>
-<p>
-You may return items within 7 days for a full refund or exchange
-as long as they remain in original condition.
-</p>
+<p>Returns accepted within 7 days.</p>
 </div>
 
 <div class="faq-item">
 <h3>How can I track my order?</h3>
-<p>
-Once your order ships, you will receive a confirmation email
-containing tracking details.
-</p>
+<p>You will receive a tracking email once your order ships.</p>
 </div>
 
 <div class="faq-item">
 <h3>Do you offer international shipping?</h3>
-<p>
-Yes, we ship internationally to select countries.
-Additional duties may apply.
-</p>
+<p>Yes, shipping is available to select countries.</p>
 </div>
 
 </div>
@@ -149,31 +183,34 @@ Additional duties may apply.
 </section>
 
 
-<!-- CONTACT -->
+
+<!-- FOOTER -->
 
 <footer id="contact" class="footer">
 
 <div class="footer-container">
 
-<div class="footer-col">
+<div>
 <h3>Modern Lifestyle</h3>
-<p>123 Anywhere St.</p>
-<p>Any City ST 12345</p>
-<p>Tel: +123-456-7890</p>
-<p>hello@reallygreatsite.com</p>
+<p>123 Anywhere St</p>
+<p>+123 456 7890</p>
 </div>
 
-<div class="footer-col">
+<div>
 <h3>Business Hours</h3>
-<p>Monday – Friday: 9am – 6pm</p>
-<p>Saturday: 9am – 12pm</p>
+<p>Mon – Fri: 9am – 6pm</p>
+<p>Sat: 9am – 12pm</p>
 </div>
 
-<div class="footer-col">
+<div>
 <h3>Follow Us</h3>
-<p>Instagram</p>
-<p>Facebook</p>
-<p>Twitter</p>
+
+<div class="socials">
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-twitter"></i>
+</div>
+
 </div>
 
 </div>
@@ -183,6 +220,7 @@ Additional duties may apply.
 </p>
 
 </footer>
+
 
 </body>
 </html>
